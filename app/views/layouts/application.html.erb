@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Todo</title>
+    <title>To do</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -13,7 +13,16 @@
   </head>
 
   <body>
+   <h1 style="margin-bottom: 32px"> To Do List 😉</h1>
    <div class="container">
+   
     <%= yield %>
+    </div>
+  <footer class="text-muted">
+    <div class="footercontainer">
+       <p> Bogotá BootCamp - María Catalina Gallego - ToDoList® 👌 </p>
+    </div>
+</footer>
   </body>
+ 
 </html>
